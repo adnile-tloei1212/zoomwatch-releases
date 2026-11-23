@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZoomWatch privacy policy</title>
+<meta name="description" content="How ZoomWatch handles your information, including the optional Google Drive backup.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header>
+  <nav aria-label="Site">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="privacy.html" aria-current="page">Privacy policy</a></li>
+    </ul>
+  </nav>
+</header>
+<main id="main">
+  <h1>Privacy policy</h1>
+  <p>Last updated: November 22, 2026</p>
+  <p>This policy explains what information ZoomWatch uses and where it goes. In short: ZoomWatch runs on your own computer, keeps your information there, and sends nothing to the developer.</p>
+
+  <h2>Information that stays on your computer</h2>
+  <p>ZoomWatch stores the following on your own computer only:</p>
+  <ul>
+    <li>Your settings, such as sounds, announcements and keyboard choices.</li>
+    <li>Your meeting history, such as the date, the meeting link and how long you stayed.</li>
+    <li>The Zoom app keys (Client ID and Client Secret) that you type in.</li>
+    <li>Log files, which help find problems. You can delete them at any time.</li>
+    <li>Meeting notes, only when you choose to save them.</li>
+  </ul>
+  <p>The developer of ZoomWatch has no server that receives this information, and ZoomWatch has no analytics, tracking or advertising.</p>
+
+  <h2>Zoom</h2>
+  <p>When you join a meeting, ZoomWatch connects to Zoom using the Zoom Meeting SDK and your own Zoom app keys. What happens in the meeting is handled by Zoom under the <a href="https://www.zoom.com/en/trust/privacy/privacy-statement/">Zoom Privacy Statement</a>.</p>
+
+  <h2>Google Drive backup (optional)</h2>
+  <p>You can choose to back up your Zoom app keys to your own Google Drive. This is off until you select Connect Google Drive in Settings, under Zoom app keys.</p>
+  <h3>What ZoomWatch asks Google for</h3>
+  <p>ZoomWatch asks for one permission only: <strong>See, edit, create and delete only the specific Google Drive files you use with this app</strong> (the "drive.file" permission). With it, ZoomWatch can see only the files and folders it creates itself. It cannot see, read or change any other file in your Google Drive.</p>
+  <h3>What ZoomWatch does with it</h3>
+  <ul>
+    <li>Creates a folder named "ZoomWatch backup keys" in your Google Drive.</li>
+    <li>Saves one file named "ZoomWatch keys.html" in that folder, with the Client ID and Client Secret of each Zoom account you saved in ZoomWatch. Each new backup replaces that same file.</li>
+    <li>Reads your Google account email address only to show you which account is connected.</li>
+  </ul>
+  <h3>Where the Google data goes</h3>
+  <p>The Google sign-in and the backup happen directly between your computer and Google. The Google sign-in token is saved on your computer only, in your Windows user folder (AppData\Local\ZoomWatch). Nothing is sent to the developer of ZoomWatch or to anyone else. Your Google data is not sold, not used for advertising, and not used to train any AI model.</p>
+  <p>ZoomWatch's use and transfer of information received from Google APIs follows the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+  <h3>How to stop or delete</h3>
+  <ul>
+    <li>In ZoomWatch, select Disconnect Google Drive. This removes the permission and deletes the sign-in token from your computer.</li>
+    <li>You can also remove ZoomWatch at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
+    <li>The backup file stays in your Google Drive until you delete it. You can delete the "ZoomWatch backup keys" folder like any other folder.</li>
+  </ul>
+
+  <h2>Comments and suggestions</h2>
+  <p>If you choose Write a comment in Settings, ZoomWatch opens a new Gmail message in your own browser. Nothing is sent until you send that email yourself.</p>
+
+  <h2>Children</h2>
+  <p>ZoomWatch is not made for children under 13.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the new version will be posted on this page with a new date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy: <a href="mailto:simpleblinddev@gmail.com">simpleblinddev@gmail.com</a>.</p>
+</main>
+<footer>
+  <p>ZoomWatch. Zoom is a trademark of Zoom Communications, Inc. Google Drive is a trademark of Google LLC.</p>
+</footer>
+</body>
+</html>
